@@ -14,8 +14,9 @@ const UserItem = (props) => {
       <div className='user-item__content'>
         <Link>
           <div className='user-item__image'>
-            <Avatar src={props.image} alt={props.name} style={STYLE} />
+            <Avatar image={props.image} alt={props.name} style={STYLE} />
           </div>
+          {/* début */}
 
           <div className='user-item__info'>
             <h2>{props.name}</h2>
